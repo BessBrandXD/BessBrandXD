@@ -1,6 +1,7 @@
 if IY_LOADED and not _G.IY_DEBUG == true then
     -- error("Menu Admin Yield is already running!", 0)
     return
+    
 end
 
 pcall(function() getgenv().IY_LOADED = true end)
